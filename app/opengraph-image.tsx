@@ -14,24 +14,29 @@ export default function Image() {
           width: "100%",
           height: "100%",
           display: "flex",
-          flexDirection: "column",
           alignItems: "center",
           justifyContent: "center",
-          fontFamily: "sans-serif",
         }}
       >
-        <p style={{ color: "#71717a", fontSize: 20, letterSpacing: 6, textTransform: "uppercase", margin: 0 }}>
-          Portfolio
-        </p>
-        <h1 style={{ color: "#ffffff", fontSize: 80, fontWeight: 700, margin: "16px 0 0 0", letterSpacing: -2 }}>
-          Alessandro Iacovelli
-        </h1>
-        <p style={{ color: "#a1a1aa", fontSize: 28, margin: "16px 0 0 0", fontWeight: 300 }}>
-          Front End Developer
-        </p>
-        <p style={{ color: "#3f3f46", fontSize: 20, margin: "48px 0 0 0", letterSpacing: 2 }}>
-          alessandroiacovelli.it
-        </p>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 28 28"
+          fill="none"
+          width="320"
+          height="320"
+        >
+          <rect width="28" height="28" rx="6" fill="#000000" />
+          <polygon
+            points="14,3 24,8.5 24,19.5 14,25 4,19.5 4,8.5"
+            strokeWidth="1"
+            fill="none"
+            strokeLinejoin="round"
+            stroke="#ffffff"
+          />
+          <line x1="9" y1="20" x2="14" y2="9" strokeWidth="1.6" strokeLinecap="round" stroke="#ffffff" />
+          <line x1="19" y1="20" x2="14" y2="9" strokeWidth="1.6" strokeLinecap="round" stroke="#ffffff" />
+          <line x1="11" y1="16" x2="17" y2="16" strokeWidth="1.6" strokeLinecap="round" stroke="#ffffff" />
+        </svg>
       </div>
     ),
     { ...size }
