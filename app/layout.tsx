@@ -18,10 +18,10 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Alessandro Iacovelli",
-  description: "Portfolio personale di Alessandro Iacovelli, Front End Developer.",
+  description: "Portfolio personale di Alessandro Iacovelli, Front End Developer specializzato in React, Next.js e TypeScript. Scopri i miei progetti e contattami.",
   openGraph: {
     title: "Alessandro Iacovelli",
-    description: "Portfolio personale di Alessandro Iacovelli, Front End Developer.",
+    description: "Portfolio personale di Alessandro Iacovelli, Front End Developer specializzato in React, Next.js e TypeScript. Scopri i miei progetti e contattami.",
     url: "https://alessandroiacovelli.it",
     siteName: "Alessandro Iacovelli",
     type: "website",
