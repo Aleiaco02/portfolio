@@ -8,7 +8,7 @@ export async function GET() {
 
   return new NextResponse(file, {
     headers: {
-      "Content-Type": "application/pdf",
+      "Content-Type": "application/octet-stream",
       "Content-Disposition": 'attachment; filename="alessandroiacovelli-cv.pdf"',
     },
   });
