@@ -1,7 +1,17 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  headers: async () => [
+    {
+      source: "/cv.pdf",
+      headers: [
+        {
+          key: "Content-Disposition",
+          value: 'attachment; filename="alessandroiacovelli-cv.pdf"',
+        },
+      ],
+    },
+  ],
 };
 
 export default nextConfig;
