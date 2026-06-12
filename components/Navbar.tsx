@@ -170,8 +170,7 @@ export default function Navbar() {
           </ul>
 
           <a
-            href="/cv.pdf"
-            download="alessandroiacovelli-cv.pdf"
+            href="/cv"
             className="flex items-center gap-1.5 text-xs font-mono px-3 py-1.5 rounded-full text-black bg-white/90 backdrop-blur-md border border-white/60 shadow-[inset_0_1px_0_rgba(255,255,255,0.8)] hover:bg-white hover:border-white transition-all duration-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white whitespace-nowrap"
           >
             <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
@@ -186,8 +185,7 @@ export default function Navbar() {
         {/* Mobile: CV button + hamburger */}
         <div className="sm:hidden flex items-center gap-3">
           <a
-            href="/cv.pdf"
-            download="alessandroiacovelli-cv.pdf"
+            href="/cv"
             className="flex items-center gap-1.5 text-xs font-mono px-3 py-1.5 rounded-full text-black bg-white/90 backdrop-blur-md border border-white/60 shadow-[inset_0_1px_0_rgba(255,255,255,0.8)] hover:bg-white hover:border-white transition-all duration-200"
           >
             <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
