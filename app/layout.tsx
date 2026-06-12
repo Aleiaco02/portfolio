@@ -19,6 +19,20 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Alessandro Iacovelli",
   description: "Portfolio personale di Alessandro Iacovelli, Front End Developer.",
+  openGraph: {
+    title: "Alessandro Iacovelli",
+    description: "Portfolio personale di Alessandro Iacovelli, Front End Developer.",
+    url: "https://alessandroiacovelli.it",
+    siteName: "Alessandro Iacovelli",
+    images: [
+      {
+        url: "https://alessandroiacovelli.it/og-image.png",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
 };
 
 export default function RootLayout({
