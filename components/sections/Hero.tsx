@@ -7,7 +7,6 @@ interface HeroProps {
   socials: {
     github?: string;
     linkedin?: string;
-    twitter?: string;
     email?: string;
   };
 }
@@ -40,10 +39,7 @@ export default function Hero({ name, title, bio, socials }: HeroProps) {
             {socials.linkedin && (
               <SocialLink href={socials.linkedin} label="LinkedIn" platform="linkedin" />
             )}
-            {socials.twitter && (
-              <SocialLink href={socials.twitter} label="Twitter" platform="twitter" />
-            )}
-            {socials.email && (
+{socials.email && (
               <SocialLink href={`mailto:${socials.email}`} label="Email" platform="email" />
             )}
           </div>
